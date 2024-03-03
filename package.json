@@ -1,0 +1,24 @@
+{
+  "name": "cypress_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:verify": "cypress verify",
+    "format": "prettier --write \"cypress/e2e/**/*.ts\"",
+    "test": "npm run format && npm run cypress:verify && npm run cypress:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "cypress": "latest",
+    "prettier": "latest",
+    "ts-loader": "latest",
+    "webpack": "latest"
+  }
+}
