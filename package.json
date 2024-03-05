@@ -19,6 +19,7 @@
     "cypress": "latest",
     "prettier": "latest",
     "ts-loader": "latest",
+    "typescript": "latest",
     "webpack": "latest"
   }
 }
